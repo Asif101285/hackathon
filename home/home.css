@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.nav{
+    width: 100%;
+    padding: 1em 1.5 em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+    color: white;
+}
+.webname{
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: sens serif;
+}
+.jump{
+    font-size: 1.2rem;
+}
+.rightside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6em;
+}
