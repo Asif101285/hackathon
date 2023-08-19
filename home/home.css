@@ -21,6 +21,7 @@ body{
 }
 .nav #signupNav{
     margin-left: 1.5em;
+    font-family: sans-serif;
 }
 .Dashboard{
     display: flex;
@@ -30,10 +31,10 @@ body{
     text-transform: capitalize;
 
 }
-.webname{
+.webName{
     font-size: 1.2rem;
     font-weight: 600;
-    font-family: sens serif;
+    font-family: sens-serif;
     margin: 1.5rem;
     padding: 1rem;
 }
@@ -85,3 +86,94 @@ button.submit:hover {
         width: 90%;
     }
 }
+.blogForm {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7em;
+  }
+  .blogFormTitle {
+    padding: 0.3em;
+    font-size: 1.2rem;
+    border-radius: 13px;
+    border: 1px solid rgb(230, 230, 230);
+    outline: blue;
+    text-transform: capitalize;
+  }
+  .blogFormText {
+    height: 6em;
+    padding: 0.3em;
+    font-size: 1.2rem;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid rgb(230, 230, 230);
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  .blogFormBtn {
+    max-width: 11em;
+    font-size: 1.2rem;
+    padding: 0.5em 1em;
+    border-radius: 7px;
+    background: blue;
+    color: white;
+    border: none;
+  }
+  .myBlog {
+    margin: 1em;
+  }
+  .blogSection {
+    padding: 1.5em;
+  }
+  
+  .post {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.5em;
+    border: 1px solid whitesmoke;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.233);
+    width: 570px;
+    margin: 1em;
+  }
+  .head {
+    display: flex;
+    gap: 0.8em;
+    align-items: center;
+  }
+  .userImg {
+    font-size: 2.5rem;
+    background: rgb(212, 212, 212);
+    width: 1em;
+    height: 1em;
+    border-radius: 5px;
+  }
+
+  .title {
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  .displayName {
+    font-size: 1.2rem;
+    color: rgb(150, 150, 150);
+  }
+  .inputText {
+    padding: 1em;
+    font-size: 1.4rem;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  .btnDiv {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    gap: 0.7em;
+  }
+  .btn {
+    font-size: 1.3rem;
+    background: none;
+    border: none;
+    margin: 3px;
+    color: blue;
+  }
+  
