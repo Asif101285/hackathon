@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog App</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+
+    <navbar class="nav">
+        <div class="">
+            <h1>Personal blogging app</h1>
+        </div>
+    </navbar>
+
+
+
+
+    <div class="signup">
+        <!--email-->
+        <form class="email" id="form">
+            <label for="">First Name</label>
+            <input type="text" id="first name"
+            placeholder="enter your first name"
+            minlength="3"
+            maxlength="20">
+
+            <label for="">Last Name</label>
+            <input type="text" id="last name"
+            placeholder="enter your last name"
+            minlength="1"
+            maxlength="20">
+            <label for="email">Email</label>
+            <input type="email"name="email" id="email"
+             placeholder="abc@gmail.com"
+             required>
+ 
+        
+        <!--password-->
+        <div class="password">
+         <label for="password">Password</label>
+         <input type="password"
+         name="password"
+         id="password"
+         placeholder="enter your password"
+         minlength="8"
+         required>
+ 
+        </div>
+
+        <div class="password">
+            <label for="password">confirm Password</label>
+            <input type="password"
+            name="password"
+            id="confirmpassword"
+            placeholder="enter your password"
+            minlength="8"
+            required>
+    
+           </div>
+ 
+        <!--sign up button-->
+        <div class="inputBox">
+         <input type="submit" value="signup" id="btn">
+       </div>
+        </form>
+ 
+        <div class="group">
+         <p>Already Have Account?</p>
+         <a href="./login.html">Login</a>
+       </div>
+         
+    </div>
+ 
+    <script type="module" src="signup.js"></script>
+    
+</body>
+</html>

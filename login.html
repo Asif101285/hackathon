@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <navbar class="nav">
+        <div class="">
+            <h1>Personal blogging app</h1>
+        </div>
+    </navbar>
+
+    <div class="login">
+        <!--email-->
+        <form class="form" id="form">
+            <label for="email">Email</label>
+            <input type="email"name="email" id="email"
+             placeholder="abc@gmail.com"
+             required>
+ 
+        
+        <!--password-->
+        <div class="pass">
+         <label for="password">Password</label>
+         <input type="password"
+         name="password"
+         id="password"
+         placeholder="enter your password"
+         minlength="6"
+         required>
+ 
+        </div>
+ 
+        <!--login button-->
+        <div class="inputBox">
+         <input type="submit" value="login" id="btn">
+       </div>
+        </form>
+
+        <div class="group">
+            <p>Not Register?</p>
+            <a href="./index.html">Sign Up</a>
+          </div>
+    </div>
+    <script type="module" src="login.js"></script>
+
+</body>
+</html>
